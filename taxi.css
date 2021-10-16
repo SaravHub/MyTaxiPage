@@ -1,0 +1,472 @@
+body{
+  margin:0;
+  padding:0
+}
+.span
+{
+    color: #ffc61a;
+}
+.yellow_bg:hover
+{
+  color: #171717;
+  background-color: #ffc61a;
+  transition: 0.3s cubic-bezier(.65,.05,.36,1);
+  cursor: pointer;
+}
+.banner
+{
+  max-width:1440px;
+  width: 100%;
+  height: 734px;
+  background: url("images/bg_taxi.png");
+  background-repeat: no-repeat;
+}
+.logo
+{
+  float:left;
+  margin: 40px 0 0 78px;
+}
+.menu ul
+{
+  float: right;
+  margin-top: 37px;
+  margin-right: 48px;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 15px;
+}
+.menu ul li a {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+.menu ul li a:hover
+{
+  background-color: #ffc61a;
+  transition: 0.3s cubic-bezier(.65,.05,.36,1);
+}
+.car
+{
+  position: absolute;
+  margin: 17% 0 0 18%;
+  text-transform: uppercase;
+}
+.container
+{
+  max-width: 1194px;
+  width:100%;
+  margin:0 auto;
+}
+.car ul
+{
+  color: white;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+.car h5, .part .home h4
+{
+  font-size: 28px;
+  color: #ffc61a;
+  margin: 0px;
+}
+.car h1
+{
+  font-size: 43px;
+  margin: 0;
+}
+.car .link
+{
+  letter-spacing: 10px;
+  font-size: 12px;
+}
+.car_taxi
+{
+  padding: 30px 0 0 58px;
+}
+.div_2
+{
+  height: 710px;
+  background-color: #ffc61a;
+}
+.slogan
+{
+  width:60%;
+}
+.form_submit
+{
+  width:40%;
+}
+.slogan
+{
+  color:#101010;
+  margin-top: 152px;
+  position: absolute;
+  width: 600px;
+}
+.slogan .best_city, .slogan .trust_cab, .slogan .btn_readmore
+{
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: -30px;
+}
+.slogan button
+{
+  color: white !important;
+  font-size: 18px;
+  padding: 13px 28px;
+  margin-top: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+}
+.slogan button:hover,.cab_queue .white_bg:hover
+{
+  color:#000000 !important;
+  background-color: white;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.form_submit
+{
+  width: 40%;
+  float: right;
+  margin-top: 130px;
+}
+.form_submit form
+{
+  width: 422px;
+  height: 472px;
+  background-color: white;
+}
+.form_head
+{
+  background-color:#171717;
+}
+.form_head h4
+{
+  padding: 33px 177px 33px 27px;
+  font-size: 30px;
+  color: white;
+}
+.holder input
+{
+  height: 40px;
+  width: 165px;
+  border: none;
+  font-size: 16px;
+  margin-left: 28px;
+  border-bottom: 2px solid #e4e4e4;
+}
+.holder input::placeholder {
+  color: balck;
+  opacity: 1; /* Firefox */
+}
+.holder input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: balck;
+}
+.holder input::-ms-input-placeholder { /* Microsoft Edge */
+ color: balck;
+}
+.holder input:nth-child(7)
+{
+   width: 362px;
+}
+.submit_btn
+{
+  background-color: #171717;
+  font-size: 18px;
+  color: white;
+  padding: 15px 160px;
+  border: none;
+  border-radius: 5px;
+  margin: 45px 22px;
+}
+.submit_btn:hover {
+    color: #171717;
+    background-color: #ffc61a;
+    transition: 0.3s cubic-bezier(.65,.05,.36,1);
+    cursor: pointer;
+}
+.div_3
+{
+  height: 765px;
+  background-color: #ffffff;
+  margin-top: -60px;
+}
+.div3_head
+{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  margin-top: 115px;
+}
+.div3_head h2
+{
+  margin-top: -45px;
+}
+.div_3 .cab_queue:nth-child(3)
+{
+  background-color: #ffc61a;
+}
+.div_3 .cab_queue
+{
+  background-color: #f5f4f2;
+}
+.cab_queue {
+    width:30.33%;
+    height: 423px;
+    float: left;
+    text-align: center;
+    margin-top: 132px;
+}
+.cab_queue .cab_img
+{
+  margin-top: -100px;
+}
+.div3_subtitle
+{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.div3_p
+{
+  margin-top: 30px;
+}
+ .cab_queue .white_bg
+{
+  color: white !important;
+  background-color: #000000;
+}
+ .cab_queue .white_bg, .cab_queue .yellow_bg, .part .yellow_bg
+{
+  font-size: 18px;
+  padding: 13px 28px;
+  margin-top: 60px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cab_queue .yellow_bg, .part .yellow_bg
+{
+ color: #00000 !important;
+ background-color: #ffc61a;
+}
+.cab_queue .yellow_bg:hover, .part .yellow_bg:hover
+{
+   color: #eee !important;
+   background-color: #000000;
+}
+.div_3 .cab_queue:nth-child(3) {
+    margin: 132px 53px;
+}
+.div3_dolr h1:nth-child(2),.div3_dolr h1:nth-child(3) {
+    color: #ffc61a;
+}
+.div3_dolr h1:nth-child(4)
+{
+  color:black !important;
+}
+.note {
+    position: relative;
+    width: 30%;
+    margin: -39px 290px;
+    transform: scalex(-1);
+}
+.note::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 73px 73px 0;
+    border-style: solid;
+    border-color: #000 #ffc61a00;
+}
+
+.div_4
+{
+  height: 749px;
+  width: 100%;
+  background-image: url("images/bg2.png");
+  background-repeat: no-repeat;
+  padding-top: 82px;
+}
+.div4_head, .div5_head,  .div6_head
+{
+  text-align: center;
+}
+.div4_head h4, .div5_head h4
+{
+  font-size: 30px;
+  margin: 0 490px;
+}
+.div6_head h4
+{
+  font-size: 30px;
+  padding-top: 108px;
+}
+ .div4_head h2
+ {
+   font-size: 43px;
+   color:white;
+   font-weight: bold;
+   margin:0;
+ }
+ .part
+ {
+   margin-top: 102px;
+ }
+.part .home
+{
+  width: 595px;
+  height: 130px;
+  float: left;
+}
+.part .home h4
+{
+  font-size:20px !important;
+}
+.part .home p
+{
+  color:white;
+}
+.part .home .icon_class
+{
+  float:left;
+}
+.part .home .icon_text
+{
+  padding: 0 130px;
+}
+.part .icon_btn
+{
+  text-align: center;
+}
+
+.div_5
+{
+  height: 650px;
+  width:100%;
+  background-color: white;
+}
+.div5_head h2
+{
+  font-size: 43px;
+  color:black;
+  font-weight: bold;
+  margin:0;
+}
+.div_5 .download_sec
+{
+  width:38%;
+  padding: 82px 0 0 120px;
+  float: left;
+}
+.div_5 .download_sec .download_icon
+{
+  display: inline-flex;
+  margin-top: 50px;
+}
+.div_5 .download_sec .download_icon img
+{
+  padding-right: 20px;
+}
+.div_5 .download_sec1 .download_img
+{
+  float: right;
+  height: 465px;
+}
+.div_5 .download_sec .download_para p
+{
+  margin-top: 32px;
+  width: 70%;
+}
+.div_6
+{
+  height: 611px;
+  margin-top: -141px;
+  background-image: url("images/div_6_bg.png");
+}
+.div_6 .div6_head h2
+{
+    margin-top: -40px;
+    font-size: 43px;
+    font-weight: bold;
+    color: white;
+
+}
+.div_6 .portfolio_sec
+{
+  width: 35%;
+  float: left;
+  margin-right: 6%;
+  padding: 40px 50px;
+  background-color: #040707;
+  border-radius: 40px;
+}
+.download_para2 p
+{
+    color: white;
+}
+.download_para2 h2
+{
+    color: #ffc61a;
+}
+.download_para2 h3
+{
+    color:white;
+    margin-top: -20px;
+}
+.download_para2 ul
+{
+  list-style: none;
+}
+.download_para2 li
+{
+  float:left;
+}
+.download_para2 .matrio
+{
+  margin: -6px 40px;
+}
+.download_para2 .mat_img
+{
+  margin-left: -40px;
+}
+.div_7
+{
+  background-color: #ffc61a;
+  height: 287px;
+  margin-top: -25px;
+}
+.div_7 .div7_title
+{
+  text-align: center;
+}
+.div_7 .div7_title h1
+{
+  font-size: 50px;
+}
+.div_7 h2
+{
+  font-size: 30px;
+  padding-top: 9%;
+  text-transform: uppercase;
+}
+.footer
+{
+  width:100%;
+  height: 55px;
+  background-color: #010101;
+  margin-top: -16px;
+}
+.footer p
+{
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+}
